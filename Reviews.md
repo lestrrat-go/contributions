@@ -17,7 +17,7 @@ The main goals for having this guidelines are as follows:
 If you are the owner of the code in question,
 **make a decision and tell the author explicitly**.
 
-Do not make passive-aggressive suggestions such as "why don't you do it this way?".
+Do not make passive-aggressive suggestions such as "why don't you do it this way?" (i.e. It sounds like something the reviewee could say no to, but in fact you the reviewer is explicitly asking for a change).
 
 Be explicit: tell them what can be changed, what is or isn't acceptable.
 If something is unlikely to be accepted, tell them. If you can't make a decision
