@@ -5,6 +5,11 @@ considered when reviewing contributions to a project. They are not exhaustive,
 and final decisions may be different on a case-by-case basis, but they outline
 the philosophy that goes under reviews, both for giving and receiving reviews.
 
+The main goals for having this guidelines are as follows:
+
+* Reduce uncertainty between participants
+* Reduce amount of communication neccessary to decide if a change goes in (or how it goes in)
+
 # Protocol
 
 ## Reviewers: Be explicit
@@ -26,6 +31,18 @@ proposed the changes.
 If you are not the owner of the code, do not make anything more than
 suggestions. Do not give the author a hard time for not accepting your
 suggestions. Do not keep pressing them.
+
+## Reviewees: Rejection is allowed, but it goes both ways
+
+Sometimes reviewers may ask for changes that you whole-heartedly do not agree with.
+You have the right to reject them. In fact, if you are the code owner, you
+should refer to [the previous section](#reviewers-be-explicit) and **make a decision**
+to accept or reject the suggestions.
+
+If you are not a code owner, you also have the right to object, but you should
+ultimately accept that it's the code owners' right and responsibility to 
+decide if a particular request for change is a show-stopper or not.
+The code owners have the right to reject your rejection :)
 
 ## Reviewers: Line-by-line scrutiny is generally not necessary
 
