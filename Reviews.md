@@ -26,7 +26,9 @@ tell them to wait.
 Either way, it's your responsibility to make a decision such
 that the author knows exactly, in no uncertain terms, what to do next.
 Do not keep pressing the author for more: They did 99% of their job when they
-proposed the changes.
+proposed the changes. Do not engage in lengthy discussions that forces the
+author to spend more time debating: again, they did 99% of their job when
+they proposed the changes. It's your reponsibility to make a decision.
 
 If you are not the owner of the code, do not make anything more than
 suggestions. Do not give the author a hard time for not accepting your
@@ -42,7 +44,8 @@ to accept or reject the suggestions.
 If you are not a code owner, you also have the right to object, but you should
 ultimately accept that it's the code owners' right and responsibility to 
 decide if a particular request for change is a show-stopper or not.
-The code owners have the right to reject your rejection :)
+The code owners have the right to reject your rejection. Do not engage in
+prolonged discussions for rebuttal and make the reviewer spend more time.
 
 ## Reviewers: Line-by-line scrutiny is generally not necessary
 
