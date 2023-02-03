@@ -27,6 +27,23 @@ If you are not the owner of the code, do not make anything more than
 suggestions. Do not give the author a hard time for not accepting your
 suggestions. Do not keep pressing them.
 
+## Reviewers: Line-by-line scrutiny is generally not necessary
+
+We would rather have more tests or documentation than have the reviewer
+spend time with line-by-line reviews. In a similar manner, we would
+rather have the authors spend more time writing tests and documents
+than answering each critique.
+
+This is not to say that we don't or shouldn't check for code. It
+just means that the fact that the existence of intent (documentation) and 
+verification (tests) are far more important than, for example,
+if a loop is tight enough.
+
+If you are doing nitpick reviews, try to use the `suggestion` feature
+as much as possible, so that the author(s) can just accept your code changes
+instead of having to (possibly) second guess what your review intentions
+are, further increasing the communication costs.
+
 ## Reviewees: Accept consistency
 
 If you are being reviewed, accept the fact that consistency is valued.
