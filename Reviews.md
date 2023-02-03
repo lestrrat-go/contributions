@@ -69,10 +69,10 @@ You are free to suggest deviations, but it's your responsibility to
 explain why the inconsistency needs to be introduced.
 
 If and when inconsistency is pointed out, you should generally accept
-the changesuch that it's more consitent with the rest of the code.
+the change such that it's more consitent with the rest of the code.
 
-Tip: it's generally more acceptable to be inconsistent in implementation
-details than the API design/usage.
+Tip: it's generally more acceptable to be inconsistent in _implementation_
+details than the _API_ design/usage.
 
 ## Reviewees: Accept verification requests
 
@@ -91,8 +91,19 @@ to provide proof via tests and documentation.
 It's hard to describe how API design and usage matters, because it's fundamental
 to all programming. After all, when we write a new function, we are introducing
 a new API; when we call a function from another library, we are using an API.
-It's all over the place, and in many contexts. So the following will be a bit
-unorganized, but please bear with us.
+It's all over the place, and in many contexts.
+
+But fundamentally, we take the API as a _contract_. A contract could be an agreemnt
+between a person to a person, but in context of code, we're dealing with
+potentially a lot of people. And therefore we believe that the API is the hardest part
+to change in a code. This applies for both designing new APIs, and consuming APIs 
+(potentially from other libraries) within the code.
+
+In contrast, specific implementations can be improved/fixed/changed later without
+changing the API (given that the API was designed properly).
+
+Therefore, the APIs you create, and the APIs you choose to use are going to be
+scrutinized.
 
 ### New APIs
 
